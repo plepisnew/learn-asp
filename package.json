@@ -2,5 +2,11 @@
   "name": "learn-asp",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "cd client && yarn build",
+    "client": "cd client && yarn dev",
+    "server": "cd server && dotnet run",
+    "start": "cd server && dotnet run"
+  }
 }
